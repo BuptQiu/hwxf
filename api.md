@@ -19,13 +19,13 @@
 #### 各用户查看自己账户信息（ID、名称、资产、信誉值）
 #### 用户查看某个用户账户信息（ID、信誉值、交易记录）
 
-GET getUserList?type=media/anticheat 获取用户列表
-GET getUserInfo?id=* 获取其他用户信息
-POST createSmartContract 创建智能合约
-GET getContractList?type=advertiser/media/anticheat&id=* 获取合约列表
-GET getContractInfo?contractId=* 获取合约详细信息
-POST mediaConfirm 媒体确认
-POST antiCheatConfirm 第三方确认
-POST mediaSubmit 媒体提交
-POST antiCheatSubmit 第三方提交
-GET getAccount?id=* 获取自己账户信息
+GET getUserList?type=media/anticheat 获取用户列表              
+GET getUserInfo?id=* 获取其他用户信息              
+POST createSmartContract 创建智能合约                
+GET getContractList?type=advertiser/media/anticheat&id=* 获取合约列表              
+GET getContractInfo?contractId=* 获取合约详细信息                   
+POST mediaConfirm 媒体确认                     
+POST antiCheatConfirm 第三方确认               
+POST mediaSubmit 媒体提交               
+POST antiCheatSubmit 第三方提交              
+GET getAccount?id=* 获取自己账户信息               
